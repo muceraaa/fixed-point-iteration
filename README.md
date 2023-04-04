@@ -1,7 +1,11 @@
 FIXED POINT ITERATION
+
 Ivy Muthoni,Valma Mucera,Glen Ochieng
+
 March 2023
+
 ALGORITHM
+
 1. Identify the function f(x)
 2. Find points a and b such that a <b where f(a)<0 and f(b)>0
 3. Select x0(initial guess) by getting average of a and b
