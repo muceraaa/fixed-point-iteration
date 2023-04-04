@@ -10,7 +10,7 @@ A fixed point of a function $f(x)$ is a point $x$ where $f(x) = $x$.
 This is true only when $f(x)$ is continuous.
 
 
-    Applications
+    APPLICATIONS
  Fixed point iteration has multiple applications in iterative methods including:
  Newton's method, reframed as a fixed point iteration;
  This is what we will apply in code
@@ -22,7 +22,7 @@ This is true only when $f(x)$ is continuous.
  
  Runge Kutta methods and numerical ordinary diferrential equation solvers
        
-      As root finder
+      AS ROOT FINDER
 Finding the roots of an equation
 
 
@@ -35,13 +35,13 @@ ALGORITHM
         $\left\lvert g\prime(x)  < 1\right\rvert$
   
 
-     Finding the roots of an equation
+     FINDING THE ROOTS OF AN EQUATION
    
   Calculate $x_1$ such that $$x_1 = g(x_0) , x_2 = g(x_1), x_3 ... x_n$$.
-  Repeat the above till$$f(x_i)$$ - $$f(x_{i-1})$$ = $$0$$
+  Repeat the above till $f(x_i)$ - $f(x_{i-1})$ =$0$
   The root will be at $x_n$.
   
-     Sample equations
+    SAMPLE EQUATIONS
   
    $x^3 - x - 1$
    
