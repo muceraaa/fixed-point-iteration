@@ -38,7 +38,7 @@ ALGORITHM
      FINDING THE ROOTS OF AN EQUATION
    
   Calculate $x_1$ such that $$x_1 = g(x_0) , x_2 = g(x_1), x_3 ... x_n$$.
-  Repeat the above till $f(x_i)$ - $f(x_{i-1})$ =$0$
+  Repeat the above till $f(x_i)$ - $f(x_{i-1})$ = $0$
   The root will be at $x_n$.
   
     SAMPLE EQUATIONS
