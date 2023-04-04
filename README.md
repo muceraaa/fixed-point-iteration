@@ -1,6 +1,7 @@
 FIXED POINT ITERATION
 
-\author[Ivy, Valma, Glen]{Ivy Muthoni, Valma Mucera, Glen Ochieng}
+
+Ivy Muthoni, Valma Mucera, Glen Ochieng
 
 Fixed point iteration is a method of computing fixed points of a function
 A fixed point of a function $f(x)$ is a point $x$ where $f(x) = x$.\newline
@@ -36,7 +37,11 @@ Finding the roots of an equation
      Sample equations
   
    $x^3 - x - 1$
+   
+   
    $x^3-2x-5$
+   
+   
    $x^4-2x^3-5x-2$
     
    
