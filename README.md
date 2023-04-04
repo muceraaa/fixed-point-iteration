@@ -6,7 +6,7 @@ Ivy Muthoni, Valma Mucera, Glen Ochieng
 Fixed point iteration is a method of computing fixed points of a function.
 
 
-A fixed point of a function $f(x)$ is a point $x$ where $f(x) = $x$.
+A fixed point of a function $f(x)$ is a point $x$ where $f(x) = $x$
 This is true only when $f(x)$ is continuous.
 
 
