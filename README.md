@@ -19,6 +19,11 @@ a + b
 5. Calculate x1 such that x1 = g(x0) , x2 = g(x1), x3...xn.
 6. Repeat the above till
 f(xi) − f(xi−1) = 0
-.
+
 7. The root will be at xn.
-1
+
+{Sample equations}
+$x^3 - x - 1$
+$x^3-2x-5$
+$x^4-2x^3-5x-2$
+   
