@@ -3,9 +3,11 @@ FIXED POINT ITERATION
 
 Ivy Muthoni, Valma Mucera, Glen Ochieng
 
-Fixed point iteration is a method of computing fixed points of a function
+Fixed point iteration is a method of computing fixed points of a function.
+
+
 A fixed point of a function $f(x)$ is a point $x$ where $f(x) = $x$.
-This is true only when $f(x)$ is continuous
+This is true only when $f(x)$ is continuous.
 
 
     Applications
@@ -15,13 +17,16 @@ This is true only when $f(x)$ is continuous
  
  
  Halley's method;
- This is similar to Newton's method but used for functions with one real variable with a continuous second derivative
+ This is similar to Newton's method but used for functions with one real variable with a continuous second derivative.
+ 
+ 
  Runge Kutta methods and numerical ordinary diferrential equation solvers
        
       As root finder
 Finding the roots of an equation
 
-    Algorithm
+
+ALGORITHM
     
    Identify the function $f(x)$
         Find points a and b such that $a$ < $b$ where $f(a)<0$ and $f(b)>0$
@@ -33,7 +38,7 @@ Finding the roots of an equation
      Finding the roots of an equation
    
   Calculate $x_1$ such that $$x_1 = g(x_0) , x_2 = g(x_1), x_3 ... x_n$$.
-  Repeat the above till$$f(x_i) - f(x_{i-1}) = 0$$
+  Repeat the above till$$f(x_i)$$ - $$f(x_{i-1})$$ = $$0$$
   The root will be at $x_n$.
   
      Sample equations
