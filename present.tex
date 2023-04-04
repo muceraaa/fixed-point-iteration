@@ -1,0 +1,66 @@
+\documentclass[14pt]{beamer}
+\usetheme{Copenhagen}
+\usecolortheme{seahorse}
+\setbeamertemplate{headline}{}
+\title{Fixed Point Iteration}
+\author[Ivy, Valma, Glen]{Ivy Muthoni, Valma Mucera, Glen Ochieng}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Description}
+\begin{frame}{Definition}
+    \begin{itemize}
+        \item<1->Fixed point iteration is a method of computing fixed points of a function
+        \item<2->A fixed point of a function $f(x)$ is a point $x$ where $f(x) = x$.\newline
+        This is true only when $f(x)$ is continuous
+    \end{itemize}
+
+\end{frame}
+
+\section{Applications}
+\begin{frame}{Applications}
+    Fixed point iteration has multiple applications in iterative methods including:
+    \begin{itemize}
+        \item<1->Newton's method, reframed as a fixed point iteration
+        \item<2>\small{This is what we will apply in code}
+        \item<3->Halley's method\newline
+        \small{This is similar to Newton's method but used for functions with one real variable with a continuous second derivative}
+        \item<4->Runge Kutta methods and numerical ordinary diferrential equation solvers
+        \item<5->More Information - \href{https://en.wikipedia.org/wiki/Fixed-point_iteration}{here}
+    \end{itemize}
+\end{frame}
+
+\section{As root finder}
+\begin{frame}{Finding the roots of an equation}
+    Algorithm
+    \begin{itemize}
+        \item<1->Identify the function $f(x)$
+        \item<2->Find points a and b such that$ a < b$ where $f(a)<0$ and $f(b)>0$
+        \item<3->Select $x_0$(initial guess) by getting average of a and b: $$x_0 = \frac{a + b}{2}$$
+        \item<4->Define function $g(x)$ which is obtained from $f(x) = 0$ such that $x = g(x)$ and
+        $\left\lvert g\prime(x)  < 1\right\rvert$
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Finding the roots of an equation}
+    \begin{itemize}
+        \item<1-> Calculate $x_1$ such that $$x_1 = g(x_0) , x_2 = g(x_1), x_3 ... x_n$$.
+        \item<2-> Repeat the above till$$f(x_i) - f(x_{i-1}) = 0$$
+        \item<3-> The root will be at $x_n$.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Sample equations}
+    \begin{itemize}
+        \item $x^3 - x - 1$
+        \item  $x^3-2x-5$
+        \item $x^4-2x^3-5x-2$
+    \end{itemize}
+\end{frame}
+
+
+\end{document}
